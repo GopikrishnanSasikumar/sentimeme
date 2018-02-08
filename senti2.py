@@ -17,6 +17,6 @@ with open('positive_processed.csv', 'r') as f:
         k["sentence"] = row[0]
         k["intent"] = "pos"
         training_data.append(k)
-#action_train(training_data, 3000, 'senti')
+action_train(training_data, 3000, 'senti')
 print(action_predict("this is awesome", 'senti'))
 
