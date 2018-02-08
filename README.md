@@ -4,6 +4,7 @@ A sentiment analyser using neural network.
 Run
 ``` python senti2.py ```
 to train the model
+<br>
 Run 
 ``` app.py ``` 
 to run the app
