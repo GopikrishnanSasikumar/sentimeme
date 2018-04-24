@@ -1,0 +1,42 @@
+body {margin:0;}
+		a {text-decoration:none;outline:none;color:#3399ff;}
+		a:hover {color:#0066cc;}
+		.sentimeme-app-container {
+			position:absolute;width:100%;height:100%;background-color:#171717;
+		}			
+		.main-app-container {
+			width:45%;height:100%;margin:0 auto;background-color:rgba(10,10,10,0.8);
+		}
+
+		.main-logo {font-family:'pacifico';color:white;font-size:3em;text-align:center;padding-top:2%;}
+		.main-logo:hover {-webkit-animation: neon1 1.5s ease-in-out infinite alternate;cursor:pointer}
+		.sentimeme-footer {position:absolute;bottom:0;width:45%;background-color:rgba(0,0,0,0.6);text-align:center;padding-top:1%;padding-bottom:1%;}
+		.textype-1 {font-family:'poiret one';color:white;font-size:1em;}
+		.textype-2 {font-family:'poiret one';color:white;font-size:1em;}
+
+		.first-layer {width:60%;margin:0 auto;padding-top:6%;padding-bottom:1%;}
+		.meme-image {width:100%;padding-bottom:10%;}
+		.second-layer {text-align:center;width:60%;margin:0 auto;padding-top:3%;}
+		.input-box {border-radius:3px;font-family:'bellefair';outline:none;color:white;background-color:#1a1a1a;font-size:1.3em;width:100%;border:3px solid #ccc;padding:1.5% 0 1.5% 2%;}
+		.go-button {margin-top:5%;color:white;font-family:'poiret one';border:none;background-color:#1a1a1a
+		;padding:1% 15% 2% 15%;font-size:1.5em;border-radius:3px;outline:none;cursor:pointer;}
+		.go-button:hover {background-color:#252525}
+
+		@-webkit-keyframes neon1 {
+		  from {
+			text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+		  }
+		  to {
+			text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+		  }
+		}
+
+		@media screen and (max-width:1300px) {
+			.main-app-container {width:95%;}
+			.main-logo {font-size:7em;}
+			.sentimeme-footer {width:95%;font-size:1.4em;}
+			.first-layer {width:80%;padding-top:10%;}
+			.second-layer {width:80%;}
+			.input-box {font-size:4em;}
+			.go-button {font-size:4em;}
+		}
